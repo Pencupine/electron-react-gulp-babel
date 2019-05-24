@@ -7,7 +7,8 @@
     "electron": "electron .",
     "postinstall": "install-app-deps",
     "start": "gulp start",
-    "release": "gulp release"
+    "release": "gulp release",
+    "run": "gulp run"
   },
   "author": "Pencupine",
   "license": "ISC",
