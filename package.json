@@ -1,0 +1,42 @@
+{
+  "name": "electron-my-app1.0.3",
+  "version": "1.0.3",
+  "description": "",
+  "main": "app/main.js",
+  "scripts": {
+    "electron": "electron .",
+    "postinstall": "install-app-deps",
+    "start": "gulp start",
+    "release": "gulp release"
+  },
+  "author": "Pencupine",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "electron-builder": "^20.40.2",
+    "electron-reload": "^1.4.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-css": "^0.1.0",
+    "gulp-sourcemaps": "^2.6.5"
+  },
+  "build": {
+    "appId": "pencupine.template.app",
+    "files": [
+      "app/**/*",
+      "node_modules/**/*",
+      "package.json"
+    ],
+    "publish": null
+  },
+  "dependencies": {
+    "electron": "^5.0.1",
+    "electron-is-dev": "^1.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
